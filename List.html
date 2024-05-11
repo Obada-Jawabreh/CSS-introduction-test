@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List-CSS</title>
+    <style>
+        .public{
+            font-size:30px ;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        .d1 p{
+            color: black;
+            font-size: 25px;
+        }
+        .d1 p a{
+            color: orange;
+        }
+        ul li{
+            font-size: 25px;
+            margin-top: 25px;
+        }
+        ul li ul li{
+            margin: 0;
+            color: blue;
+        }
+        .color{
+            list-style-type: none;
+            color: blue;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <p class="public">Have Fun While Styleing!</p>
+    <hr>
+    <div class="d1">
+        <p style="color: blue;">Here is a text <a href="#">whith a link.</a>Lit's do it !</p>
+        <p >we have more <a href="#">links</a> here;</p>
+        <p >is this a (<mark><a href="#">link</a></mark>?).</p>
+        <p>we have a list</p>
+        <ul>
+            <li style="font-weight: bold;">Please; <a href="#" style="color: red;">Click Me!</a></li>
+            <li style="margin-top: 25px;">can you ? let's count
+            <ul>
+                <li style="font-weight: bold;">111</li>
+                <li>222 <a href="#" style="color: red;">Another Link</a></li>
+                <li>333
+                    <ul class="color">
+                        <li style="font-weight: bold;">red</li>
+                        <li>green</li>
+                        <li >blue <a href="#" style="color: red;">Colors Link</a></li>
+                    </ul>
+                </li>
+            </ul>
+            </li>
+            <li>That's Enough !</li>
+        </ul>
+    </div>
+</body>
+</html>
